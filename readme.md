@@ -26,6 +26,6 @@ APK will be available at android/app/build/outputs/apk/
 
 ### DEMO
 
+https://user-images.githubusercontent.com/59798109/188328432-f9ade9fb-6068-41d0-ad05-a1657098e103.mp4
 
-https://user-images.githubusercontent.com/59798109/188327386-3b125373-3465-4480-8b9f-585cc77816af.mov
 
