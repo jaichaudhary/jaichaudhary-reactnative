@@ -25,3 +25,7 @@ To build Android APK, run the following commands in the root directory
 APK will be available at android/app/build/outputs/apk/
 
 ### DEMO
+
+
+https://user-images.githubusercontent.com/59798109/188327386-3b125373-3465-4480-8b9f-585cc77816af.mov
+
