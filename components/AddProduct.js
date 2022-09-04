@@ -41,7 +41,15 @@ const AddProduct = ({navigation}) => {
   }, [selectedCategories, dispatch]);
 
   const addProductDetails = async () => {
-    const res = await dispatch(addProduct());
+    const payload = {
+      name: value.title,
+      price: value.price,
+      category: category,
+      description: value.desc,
+      avatar: value.image,
+      developerEmail: 'jai.chaudhary.1044@gmail.com',
+    };
+    const res = await dispatch(addProduct(payload));
     return res;
   };
 

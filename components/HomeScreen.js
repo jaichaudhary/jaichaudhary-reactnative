@@ -81,8 +81,14 @@ const HomeScreen = ({navigation}) => {
           colors={['#ffffff', '#000000']}
           style={styles.linearGradient}
         />
-        <View style={{backgroundColor: 'black', borderRadius: 8, padding: 8}}>
-          <Text style={styles.btn__whiteText}>{item.category}</Text>
+        <View
+          style={{
+            backgroundColor: 'black',
+            borderRadius: 8,
+            padding: 8,
+            flexGrow: 1,
+          }}>
+          <Text style={styles.btn__whiteText}>{item.name}</Text>
           <Text
             style={[
               styles.btn__whiteText,
